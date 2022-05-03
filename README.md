@@ -15,13 +15,7 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ##  Deploy the Vue js web-pack application in Tomcat 
 
@@ -35,4 +29,9 @@ module.exports = {
 ### Now let us create a production build with below command.
 ```
 npm run-script build
+```
+
+###  Upload all content of dist to tomcat webapps new directory (weather), which we have configured in the vue.config.js 
+```
+TOMCAT_HOME/webapps/weather
 ```
